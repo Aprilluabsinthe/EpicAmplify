@@ -1,1 +1,1 @@
-# EpicAmplifyFront
+# EpicAmplify

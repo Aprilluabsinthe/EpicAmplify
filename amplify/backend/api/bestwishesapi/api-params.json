@@ -1,0 +1,54 @@
+{
+  "paths": [
+    {
+      "name": "/bestwishes",
+      "lambdaFunction": "bestwishesfunction",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/bestwishes"
+    },
+    {
+      "name": "/wishes",
+      "lambdaFunction": "newwishes",
+      "privacy": {
+        "open": true
+      },
+      "policyResourceName": "/wishes"
+    }
+  ],
+  "resourceName": "bestwishesapi",
+  "apiName": "bestwishesapi",
+  "functionArns": [
+    {
+      "lambdaFunction": "bestwishesfunction"
+    },
+    {
+      "lambdaFunction": "newwishes"
+    }
+  ],
+  "privacy": {
+    "auth": 0,
+    "unauth": 0,
+    "authRoleName": "amplify-epicamplify-dev-15720-authRole",
+    "unAuthRoleName": "amplify-epicamplify-dev-15720-unauthRole"
+  },
+  "dependsOn": [
+    {
+      "category": "function",
+      "resourceName": "bestwishesfunction",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    },
+    {
+      "category": "function",
+      "resourceName": "newwishes",
+      "attributes": [
+        "Name",
+        "Arn"
+      ]
+    }
+  ]
+}

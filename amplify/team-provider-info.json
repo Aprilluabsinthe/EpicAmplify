@@ -1,0 +1,31 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-epicamplify-dev-15720-authRole",
+      "UnauthRoleArn": "arn:aws:iam::373817079404:role/amplify-epicamplify-dev-15720-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::373817079404:role/amplify-epicamplify-dev-15720-authRole",
+      "Region": "us-east-2",
+      "DeploymentBucketName": "amplify-epicamplify-dev-15720-deployment",
+      "UnauthRoleName": "amplify-epicamplify-dev-15720-unauthRole",
+      "StackName": "amplify-epicamplify-dev-15720",
+      "StackId": "arn:aws:cloudformation:us-east-2:373817079404:stack/amplify-epicamplify-dev-15720/5eb4abb0-dafa-11eb-b818-020baedf0126",
+      "AmplifyAppId": "d29iubligref6q"
+    },
+    "categories": {
+      "function": {
+        "greetingfunction": {
+          "deploymentBucketName": "amplify-epicamplify-dev-15720-deployment",
+          "s3Key": "amplify-builds/greetingfunction-6e47687064772f64486d-build.zip"
+        },
+        "bestwishesfunction": {
+          "deploymentBucketName": "amplify-epicamplify-dev-15720-deployment",
+          "s3Key": "amplify-builds/bestwishesfunction-684d4b7049342b687435-build.zip"
+        },
+        "newwishes": {
+          "deploymentBucketName": "amplify-epicamplify-dev-15720-deployment",
+          "s3Key": "amplify-builds/newwishes-7034374f514c33315734-build.zip"
+        }
+      }
+    }
+  }
+}
